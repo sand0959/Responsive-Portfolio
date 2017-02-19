@@ -1,0 +1,276 @@
+body {
+    width: 960px;
+    background-image: url("../images/naturalwhite.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img {
+    image-orientation: from-image;
+}
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    border-color: #cccccc;
+    background-color: white;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+}
+
+.name {
+    width: 200px;
+    height: 60px;
+    float: left;
+    background: #4aaaa5;
+    color: white;
+    margin-left: 10%;
+}
+
+#list1 {
+    position: relative;
+    left: 340px;
+    top: 15px;
+
+}
+
+
+}
+nav {
+    clear: both;
+    float: right;
+}
+nav ul {
+    margin: 0;
+    display: inline;
+    list-style: none;
+    padding: 0 0 0 15px;
+}
+nav ul li {
+    color: grey;
+    display: inline-block;
+    list-style: none;
+    padding: 5px 15px;
+}
+h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #D3D3D3;
+    width: 100%;
+}
+.bio {
+    float: left;
+    width: 450px;
+    margin: 42px 92px 42px 92px;
+    background-color: white;
+    border-color: #dddddd;
+    position: relative;
+    bottom: -55px;
+    padding: 20px;
+}
+#bio-image {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+    display: inline;
+    padding: 15px;
+}
+.sidebar {
+    float: right;
+    width: 250px;
+    height: 150px;
+    margin: 0px;
+    background: white;
+    text-align: center;
+    position: relative;
+    bottom: -100px;
+    padding: 5px;
+}
+.contact1 {
+    float: left;
+    width: 450px;
+    margin: 42px 92px 42px 92px;
+    background-color: white;
+    padding-top: 100;
+}
+h3 {
+    color: #4aaaa5;
+}
+.contact {
+    background: white;
+    width: 450px;
+    margin: 42px 92px 42px 92px;
+    background-color: white;
+    border-color: #dddddd;
+    position: relative;
+    bottom: -55px;
+    padding: 20px;
+}
+footer {
+    clear: both;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 10px;
+    color: white;
+    margin-top: 50px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-color: #4aaaa5;
+    background-color: grey;
+    text-align: center;
+    position: fixed;
+    display: table;
+}
+#copywrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+input,
+textarea {
+    width: 450px;
+    height: 25px;
+    background: white;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 0.9em;
+    color: #3a3a3a;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    border-radius:2px;
+    color: white;
+    border:none;
+    width: 70px;
+    height: 35px;
+}
+form {
+    float: left;
+    width: 450px;
+    margin: 42px 92px 42px 92px;
+    background-color: white;
+    border-color: #dddddd;
+    position: relative;
+    bottom: -55px;
+    padding: 20px;
+    display: block;
+    }
+
+textarea {
+    width: 450px;
+    height: 100px;
+}
+
+.portfolio {
+    box-sizing: border-box;
+    max-width: 650px;
+    min-width: 650px;
+    padding-left: 33px;
+    padding-right: 33px;
+    border: 1px grey solid;
+    float: left;
+    clear: right;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+img .portfolio {
+    display: block;
+    margin-bottom: -20px;
+}
+
+a:link {
+color: #4AAAA5;
+text-decoration: none;
+}
+a:visited {
+color: #3E0CE8;
+}
+
+a:hover {
+color: #FF0000;
+}
+
+.projectlabel {
+    box-sizing: border-box;
+    position: absolute;
+    top: 60px;
+    background: #4aaaa5;
+    color: white;
+    height: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 200px;
+    text-align: center;
+    font-size: 19px
+    
+}
+
+.image {
+    position: relative;
+    width: 200px;
+    float: left;
+}
+
+.imageleft {
+    margin-bottom: -10px;
+    margin-left: 0px;
+    margin-right: 24px;
+}
+
+.imageright {
+    margin-left: 24px;
+    margin-right: 0px
+}
+
+.row1 {
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.row2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.row3 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+
+.content-area {
+    float: left;
+    width: 450px;
+    margin: 42px 92px 42px 92px;
+    background-color: white;
+    border-color: #dddddd;
+    position: relative;
+    bottom: -55px;
+    padding: 20px;
+}
+
+.sidebar3 {
+     float: right;
+    width: 250px;
+    height: 150px;
+    margin: 0px;
+    background: white;
+    text-align: center;
+    position: relative;
+    bottom: -100px;
+    padding: 5px; 
+}
+
