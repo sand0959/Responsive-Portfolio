@@ -37,7 +37,6 @@ header h1 {
     position: relative;
     left: 340px;
     top: 15px;
-
 }
 
 
@@ -83,6 +82,17 @@ h2 {
     padding: 15px;
 }
 .sidebar {
+    float: right;
+    width: 250px;
+    height: 150px;
+    margin: 0px;
+    background: white;
+    text-align: center;
+    position: relative;
+    bottom: -100px;
+    padding: 5px;
+}
+.sidebar2 {
     float: right;
     width: 250px;
     height: 150px;
@@ -146,12 +156,11 @@ textarea {
     font-size: 0.9em;
     color: #3a3a3a;
 }
-
 #submit {
     background-color: #4aaaa5;
-    border-radius:2px;
+    border-radius: 2px;
     color: white;
-    border:none;
+    border: none;
     width: 70px;
     height: 35px;
 }
@@ -165,13 +174,11 @@ form {
     bottom: -55px;
     padding: 20px;
     display: block;
-    }
-
+}
 textarea {
     width: 450px;
     height: 100px;
 }
-
 .portfolio {
     box-sizing: border-box;
     max-width: 650px;
@@ -190,19 +197,16 @@ img .portfolio {
     display: block;
     margin-bottom: -20px;
 }
-
 a:link {
-color: #4AAAA5;
-text-decoration: none;
+    color: #4AAAA5;
+    text-decoration: none;
 }
 a:visited {
-color: #3E0CE8;
+    color: #3E0CE8;
 }
-
 a:hover {
-color: #FF0000;
+    color: #FF0000;
 }
-
 .projectlabel {
     box-sizing: border-box;
     position: absolute;
@@ -215,42 +219,33 @@ color: #FF0000;
     width: 200px;
     text-align: center;
     font-size: 19px
-    
 }
-
 .image {
     position: relative;
     width: 200px;
     float: left;
 }
-
 .imageleft {
     margin-bottom: -10px;
     margin-left: 0px;
     margin-right: 24px;
 }
-
 .imageright {
     margin-left: 24px;
-    margin-right: 0px
+    margin-right: 0px;
 }
-
 .row1 {
     margin-top: 5px;
     margin-bottom: 40px;
 }
-
 .row2 {
     margin-top: 40px;
     margin-bottom: 10px;
 }
-
 .row3 {
     margin-top: 40px;
     margin-bottom: 30px;
-
 }
-
 .content-area {
     float: left;
     width: 450px;
@@ -261,9 +256,8 @@ color: #FF0000;
     bottom: -55px;
     padding: 20px;
 }
-
 .sidebar3 {
-     float: right;
+    float: right;
     width: 250px;
     height: 150px;
     margin: 0px;
@@ -271,6 +265,205 @@ color: #FF0000;
     text-align: center;
     position: relative;
     bottom: -100px;
-    padding: 5px; 
+    padding: 5px;
 }
 
+/* Beginning of Homework 2 */
+@media screen and (max-width: 980px) {
+    .bio {
+        margin-bottom: 100px;
+        width: 300px;
+    }
+    
+    #bio-image {
+        border-left: 25px;
+        border-right: 25px;
+    }
+    
+    .sidebar {
+        right: 350px;
+        width: 150px;
+        height: 100px;
+    }
+    
+    .sidebar h2 {
+        font-size: 15px;
+    }
+    
+    #list1 {
+        position: static;
+        padding-left: 175px;
+    }
+    
+    form {
+        width: 300px;
+    }
+    
+    textarea {
+        width: 300px;
+    }
+    
+    input,
+    textarea {
+        width: 300px;
+    }
+    
+    .sidebar2 {
+        right: 350px;
+        width: 150px;
+        height: 100px;
+    }
+    
+    .sidebar2 h2 {
+        font-size: 15px;
+    }
+    
+    .image {
+        clear: both;
+    }
+    
+    .sidebar3 {
+        right: 200px;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .imageright {
+        right: 25px;
+    }
+    
+    #copywrapper {
+        text-align: center;
+    }
+}
+/* Second Media Screen */
+@media screen and (max-width: 768px) {
+    #page1 {
+        height: auto;
+    }
+    .sidebar {
+        top: -10px;
+        width: 475px;
+        left: -465px;
+        text-align: left;
+        margin: 0;
+    }
+    
+    .sidebar2 {
+        bottom: 12px;
+        width: 475px;
+        left: -465px;
+        text-align: left;
+    }
+   
+    .sidebar3 {
+        bottom: -15px;
+        width: 480px;
+        left: -380px;
+        text-align: left;
+        position: relative;
+        height: auto;
+    }
+    
+    h2 .sidebar3 {
+        margin-top: 0px;
+    }
+    
+    .bio {
+        height: 350px;
+        clear: right;
+        margin: 10px 10px 70px 10px;
+        width: 475px;
+        position: relative;
+    }
+    
+    #list1 {
+        position: static;
+        padding-left: 100px;
+    }
+    
+    form {
+        margin: 10px 10px 75px 10px;
+        width: 420px;
+    }
+    
+    textarea {
+        width: 420px;
+        height: 25px;
+    }
+    
+    input,
+    textarea {
+        width: 420px;
+    }
+    
+    .content-area {
+        margin-top: 10px;
+        position: relative;
+        height: auto;
+    }
+    
+    .image {
+        position: relative;
+        width: 100px;
+        float: left;
+    }
+    
+    .imageright {
+        left: 95px;
+    }
+    
+    .imageleft {
+        left: 120px;
+    }
+    
+    #copywrapper {
+        text-align: center;
+    }
+
+    }
+}
+
+}
+/* Third Media Screen */
+@media screen and (max-width: 640px) {
+    #page1 {
+        height: auto;
+    }
+    .bio {
+        width: 100%;
+        top: 20px;
+    }
+    .sidebar {
+        width: 560px;
+        bottom: 20px;
+        left: -350px;
+        height: 74px;
+        margin-bottom: 10px;
+    }
+    .sidebar2 {
+        width: 590px;
+        bottom: 20px;
+        left: -350px;
+        height: 75px;
+        margin-bottom: 10px;
+    }
+    .name {
+        width: 6px;
+        text-align: center;
+        margin: auto;
+    }
+    .image {
+        clear: both;
+    }
+    .content-area {
+        width: 300px;
+        margin: 0px 10px;
+    }
+    h2 {
+        text-align: center;
+    }
+    #copywrapper {
+        text-align: center;
+    }
+}
